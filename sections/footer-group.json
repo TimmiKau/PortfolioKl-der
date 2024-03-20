@@ -2,8 +2,45 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_pTHJMt": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
+      "blocks": {
+        "link_list_CgpDU7": {
+          "type": "link_list",
+          "settings": {
+            "heading": "INFO",
+            "menu": "footer"
+          }
+        },
+        "link_list_m4ExHa": {
+          "type": "link_list",
+          "settings": {
+            "heading": "KONTAKT",
+            "menu": "kontakt"
+          }
+        },
+        "link_list_nTDQE8": {
+          "type": "link_list",
+          "settings": {
+            "heading": "SOCIALA MEDIER",
+            "menu": "sociala-medier"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_CgpDU7",
+        "link_list_m4ExHa",
+        "link_list_nTDQE8"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
@@ -21,6 +58,7 @@
     }
   },
   "order": [
+    "custom_liquid_pTHJMt",
     "footer"
   ]
 }
