@@ -27,6 +27,7 @@
             "heading": "KONTAKT",
             "menu": "kontakt"
           }
+
         },
         "link_list_nTDQE8": {
           "type": "link_list",
@@ -34,6 +35,8 @@
             "heading": "SOCIALA MEDIER",
             "menu": "sociala-medier"
           }
+
+
         }
       },
       "block_order": [
