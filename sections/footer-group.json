@@ -5,6 +5,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "image_CPAygp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo-adventure.png",
+            "image_width": 100,
+            "alignment": "center"
+          }
+        },
         "link_list_CgpDU7": {
           "type": "link_list",
           "settings": {
@@ -15,19 +23,20 @@
         "link_list_m4ExHa": {
           "type": "link_list",
           "settings": {
-            "heading": "KONTAKT",
-            "menu": "kontakt"
+            "heading": "CONTACTS",
+            "menu": "contact"
           }
         },
         "link_list_nTDQE8": {
           "type": "link_list",
           "settings": {
-            "heading": "SOCIALA MEDIER",
-            "menu": "sociala-medier"
+            "heading": "SOCIAL MEDIA",
+            "menu": "social-media"
           }
         }
       },
       "block_order": [
+        "image_CPAygp",
         "link_list_CgpDU7",
         "link_list_m4ExHa",
         "link_list_nTDQE8"

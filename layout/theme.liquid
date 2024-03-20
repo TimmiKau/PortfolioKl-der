@@ -280,8 +280,10 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-    <link href="{{ 'app.css' | asset_url }}" rel="stylesheet" type="text/css" media="all">
+
+<link href="{{ 'app.css' | asset_url }}" rel="stylesheet" type="text/css" media="all">
     <script src="{{ 'app.js' | asset_url }}" defer="defer"></script>
+
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
@@ -295,8 +297,15 @@
 
     {% sections 'header-group' %}
 
+
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {{ content_for_layout }}
+    <div id="content">
+ 
+  {{ content_for_layout }}
+</div>
+
+     
+       
     </main>
 
     {% sections 'footer-group' %}

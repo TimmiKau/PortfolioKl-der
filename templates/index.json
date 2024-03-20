@@ -28,16 +28,104 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/adventure-1850178_1920.jpg",
-        "image_overlay_opacity": 20,
+        "image_overlay_opacity": 30,
         "image_height": "large",
         "desktop_content_position": "middle-right",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
-        "image_behavior": "ambient",
+        "image_behavior": "fixed",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "rich_text_8rckBN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_q7PiXK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Discover Your Adventure<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_UqFM8e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Embark on a journey beyond the ordinary with Adventure Inc. Our passion <br\/>for the great outdoors fuels our commitment to providing you with <br\/>top-quality gear and expert guidance for every adventure.<\/p>"
+          }
+        },
+        "button_9HEmNg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Unveil Our Journey",
+            "button_link": "shopify:\/\/pages\/our-adventure-story",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_q7PiXK",
+        "text_UqFM8e",
+        "button_9HEmNg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_eL36zA": {
+      "type": "multirow",
+      "blocks": {
+        "row_YPaCmk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sizzling-and-camping.jpg",
+            "caption": "",
+            "heading": "Outdoor Cooking",
+            "text": "<p>Gear up for outdoor cooking adventures! <\/p><p>Explore our collection for durable stoves and cookware essentials designed for delicious meals on the go<\/p>",
+            "button_label": "Outdoor  Cooking",
+            "button_link": "shopify:\/\/collections\/outdoor-cooking"
+          }
+        },
+        "row_N3knEt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-araz-yurtseven-19488903.jpg",
+            "caption": "",
+            "heading": "Knifes",
+            "text": "<p>From rugged survival blades to versatile multi-tools, our selection ensures you're equipped for any outdoor task. <\/p><p>Explore now for top-quality knives built for adventure.<\/p>",
+            "button_label": "Knifes",
+            "button_link": "shopify:\/\/collections\/knifes"
+          }
+        }
+      },
+      "block_order": [
+        "row_YPaCmk",
+        "row_N3knEt"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -67,10 +155,23 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "contact_form_QKPynR": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "rich_text_8rckBN",
+    "multirow_eL36zA",
+    "featured_collection",
+    "contact_form_QKPynR"
   ]
 }

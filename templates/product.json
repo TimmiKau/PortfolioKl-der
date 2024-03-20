@@ -1,5 +1,10 @@
 {
   "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -106,6 +111,7 @@
   },
   "order": [
     "main",
+    "breadcrumbs",
     "related-products"
   ]
 }
